@@ -15,7 +15,7 @@ public class Streams {
 	}
 
 	public static List<Person> olderThan(List<Person> person, int limit) {
-		throw new RuntimeException("Implement me using streams and collectors");
+		throw new RuntimeException("Implement me using a filter predicate");
 	}
 
 	public static int overallAge(List<Person> persons) {
