@@ -1,4 +1,4 @@
-package sam;
+package exercise1;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.CoreMatchers.is;
@@ -9,6 +9,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.junit.Test;
+
+import domain.Person;
 
 public class LambdasTest {
 
@@ -30,4 +32,5 @@ public class LambdasTest {
 		List<Integer> result = persons.stream().map(Person::getAge).collect(Collectors.toList());
 		assertThat(result, is(asList(5, 3, 2)));
 	}
+
 }

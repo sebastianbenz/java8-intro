@@ -1,4 +1,4 @@
-package sam;
+package domain;
 
 public class Person{
 	
