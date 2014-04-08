@@ -38,4 +38,10 @@ public class StreamsTest {
 		assertThat(result, is(tom.getAge() + jerry.getAge() + duffy.getAge()));
 	}
 
+    @Test
+	public void olderThan() throws Exception {
+		List<Person> result = Streams.olderThan(persons, 1);
+		assertThat(result, is(asList(tom, jerry)));
+	}
+
 }

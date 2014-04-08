@@ -1,8 +1,6 @@
 package exercise2;
 
-import java.util.Collection;
 import java.util.List;
-import java.util.function.Supplier;
 
 import domain.Person;
 
@@ -16,9 +14,12 @@ public class Streams {
 		throw new RuntimeException("Implement me using method references");
 	}
 
+	public static List<Person> olderThan(List<Person> person, int limit) {
+		throw new RuntimeException("Implement me using streams and collectors");
+	}
+
 	public static int overallAge(List<Person> persons) {
 		throw new RuntimeException("Implement me using map reduce with lambdas");
 	}
-
 
 }
